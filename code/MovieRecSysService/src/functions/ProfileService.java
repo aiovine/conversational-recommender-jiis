@@ -260,6 +260,6 @@ public class ProfileService {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(new ProfileService().getUserProfile(19371450));
+		System.out.println(new ProfileService().getUserProfile(0));
 	}
 }

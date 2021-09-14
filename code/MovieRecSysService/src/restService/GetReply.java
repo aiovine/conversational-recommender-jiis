@@ -92,7 +92,7 @@ public class GetReply {
 		"one_time_keyboard": false
 	},
 	"auxAPI": {
-	    "apiURL": "http://193.204.187.192:8091/movierecsysservice/restService/exampleAuxAPI",
+	    "apiURL": "http://<path>/movierecsysservice/restService/exampleAuxAPI",
 	    "messageID": "mid.$cAAeMCT36TB",
 	    "parameters": {
 	        "displayText": "text",

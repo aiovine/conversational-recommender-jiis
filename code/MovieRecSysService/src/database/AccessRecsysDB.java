@@ -54,14 +54,11 @@ public class AccessRecsysDB {
 	private static String driver = "com.mysql.jdbc.Driver";
 	private static String url    = DBConstants.dbURL + DBConstants.dbName + "?useSSL=false";
 	private static BasicDataSource dataSource;
-//	private static String url    = "jdbc:mysql://recsys-amazon-db.c9suqx5fkol0.us-west-2.rds.amazonaws.com:3306/recsys_db";
 	
 	//Settare il numero di film da considerare nel calcolo del pagerank, 9000 in questo momento
 	private static String username;
 	private static String password;
 	
-//	private static String username = "frencisdrame";
-//	private static String password = "recsys16";
 //	
 	static {
 		dataSource = new BasicDataSource();

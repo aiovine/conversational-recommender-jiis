@@ -22,9 +22,7 @@ public class MetricsAccessRecsysDB {
 	private static String driver = "com.mysql.jdbc.Driver";
 	private static String url    = DBConstants.dbURL + DBConstants.dbName;
 	
-	private static String username = "frencisdrame";
-	private static String password = "recsys16";
-	
+
 	public MetricsAccessRecsysDB (){
 		
 	}
